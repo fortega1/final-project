@@ -1,0 +1,262 @@
+/* General */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #346894;
+}
+
+body {
+  margin: 0;
+  height: 2750px;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  margin: 150px 600px 0 600px;
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+
+/* Header */
+#logo {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 20px;
+  float: left;
+}
+
+/* Navigation */
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(lightgray, gray);
+  width: 100%;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  background-image: linear-gradient(white, lightgray);
+  text-align: right;
+  padding: 10px;
+  clear: both;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.active {
+  color: white;
+  background-image: linear-gradient(lightgray, gray);
+  padding: 10px;
+  margin: -10px;
+}
+
+a:hover {
+  /* background-color: #346894;
+  padding: 10px;
+  color: white; */
+  background-image: linear-gradient(lightgray, #346894);
+  color: white;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient(lightgray, gray);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+.fa {
+  text-decoration: none;
+  color: #346894;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.fa-linkedin,
+.fa-facebook,
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin:hover,
+.fa-facebook:hover,
+.fa-github:hover {
+  font-size: x-large;
+  background-image: linear-gradient(lightgray, #346894);
+}
+
+/* Home Page */
+/* Hero Image */
+#heroimage {
+  height: auto;
+  width: 100%;
+  padding: auto;
+  filter: brightness(50%);
+  position: relative;
+}
+
+/* Text Over Hero Image */
+.typed-out {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  animation: typing 4s steps(20, end) forwards, blink 0.8s infinite;
+  font-size: 4em;
+  width: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 51%;
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
+}
+
+/* About Page*/
+.about {
+  column-count: 2;
+  column-gap: 10px;
+  column-width: 500px;
+  padding: 60px;
+  margin-top: 100px;
+}
+
+.myimage {
+  height: auto;
+  padding-left: 35%;
+}
+
+.about-text {
+  padding-right: 30%;
+  line-height: 2.5;
+}
+
+/* Bitwise */
+.bitwise {
+  column-count: 2;
+  column-gap: 10px;
+  column-width: 500px;
+  padding: 60px;
+  margin-top: 100px;
+}
+
+.bitwise-text {
+  padding-left: 30%;
+  padding-right: 15%;
+  line-height: 2.5;
+}
+
+.bitwise-video {
+  padding-right: 40%;
+  padding-left: 20%;
+}
+
+/* Skills */
+.skills {
+  clear: both;
+  margin-top: 150px;
+}
+
+div.skills > p {
+  display: inline;
+  margin-left: 22%;
+  font-size: 3em;
+}
+
+/* Projects */
+.projects {
+  margin-top: 150px;
+}
+
+div.projects > div {
+  display: inline;
+  margin-left: 12%;
+}
+
+.project1,
+.project2,
+.project3 {
+  width: 300px;
+  border: 3px solid black;
+}
+
+.projects a:hover {
+  background-image: linear-gradient(lightgray, #346894);
+  border-radius: 50%;
+}
+
+/* Contact Page */
+.contact {
+  background-image: linear-gradient(lightgray, gray);
+  border: 2px solid gray;
+  width: 400px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+label {
+  color: #234461;
+}
+
+button {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  background-image: linear-gradient(white, lightgray);
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: linear-gradient(lightgray, #346894);
+  color: white;
+}
+
+/* Google Map */
+.google {
+  margin: 100px 750px;
+}
+
+
+
